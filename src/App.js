@@ -85,6 +85,7 @@ function App() {
             </Container>
           </Navbar>
           <Container>
+          <h2 className="text-center">search result for: {search}</h2>
             <Row xs={1} md={2} className="g-4">
               {songs?.map((song, idx) => (
                 <Col key={idx}>
